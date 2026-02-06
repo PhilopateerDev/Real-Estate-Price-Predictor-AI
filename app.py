@@ -57,7 +57,7 @@ st.pyplot(fig)
 
 # --- وضع الـ R2 Score تحت الرسمة مباشرة مع علامة صح ---
 # استخدمنا st.success عشان تظهر بخلفية خضراء وعلامة صح
-st.success(f"✅ Model Accuracy (R2 Score): {score*100:.2f}%")
+st.success(f"✅ Model Accuracy : {score*100:.2f}%")
 
 # --- مدخلات المستخدم (تحت الدقة وقبل التوقع) ---
 st.divider()
